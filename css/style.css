@@ -4,8 +4,8 @@
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	margin: 0;
-	
-	
+
+
 }
 li{
 	list-style: none;
@@ -14,13 +14,13 @@ li{
 .profilethumbnail{
 	padding: 0;
 	margin: 0;
-    
+
 }
 .container4 {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(../image/cyberpunk-51325622.jpg);	
+	background-image: url(../image/cyberpunk-51325622.jpg);
     background-size: cover;
 	background-position: center;
 }
@@ -30,7 +30,7 @@ li{
 	text-align: center;
 	font-style: Roboto;
 	margin-top: 5%;
-	
+
 }
 
 .profilemain{
@@ -42,17 +42,17 @@ li{
 	padding: 5%;
 	width: 20%;
 	height: 20%;
-	
+
 }
 
 .profiletxt{
 	width: 80%;
 }
 h1.profiletxt {
-	
+
 	text-align: center;
 	font-family:YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
-	
+
 }
 p.profiletxt {
 	margin-left: 4%;
@@ -62,7 +62,7 @@ p.profiletxt {
 }
 /*Contacat page*/
 .contactmain{
-	
+
 }
 h1.contactmain{
 	font-size: 80px;
@@ -71,7 +71,7 @@ h1.contactmain{
 	font-style: Roboto;
 	margin-top: 5%;
 
-	
+
 }
 /**/
 
@@ -88,12 +88,17 @@ h1.contactmain{
 	font-weight: bold;
 }
 
+.news {
+	width:100%;
+	background: rgba(255,255,255,0.5)
+}
+
 .listlink {
 	color: #000000;
 	font-family: Roboto;
 	margin: 4% 0 4% 0;
-	
-	
+
+
 }
 
 .linkicon:hover{
@@ -114,8 +119,8 @@ a:hover{
 .article {
 	width: 100%;
 	text-align: left;
-	
-	
+
+
 }
 
 .thumbnailarticle {
@@ -138,21 +143,21 @@ a:hover{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 1.6%;
-	
-	
+
+
 
 }
 
 
 .articlelist   {
-	display: inline-block;
-	
-	width: 30%;
+
+
+	width: 100%;
 	height: 100%;
 }
 
 .articletitle {
-	
+
 	padding-left: 3%;
 }
 
@@ -203,7 +208,7 @@ ul.topnav li.right {
 	background-image: url("../image/Background04.jpg");
     background-size: cover;
 	background-position: right;
-	
+
 }
 .container2 {
 	width: 90%;
@@ -212,7 +217,7 @@ ul.topnav li.right {
 	background-image: url("../image/architecture-3734552.jpg");
     background-size: cover;
 	background-position: right;
-	
+
 }
 .container3 {
 	width: 90%;
@@ -220,8 +225,8 @@ ul.topnav li.right {
 	margin-right: auto;
 	background-image: url("../image/glass-3389935.jpg");
     background-size: cover;
-	
-	
+
+
 }
 /* Header */
 header {
@@ -244,11 +249,11 @@ header {
 	min-width: 40px;
 	min-height: 40px;
 	height:auto;
-	
+
 }
 
 .hero_header {
-	
+
 	text-align: center;
 	margin: 0;
 	color: #FFFFFF;
@@ -294,7 +299,7 @@ header {
 .gallery .thumbnail h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	
+
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -308,7 +313,7 @@ header {
 /* More info */
 .intro {
     padding-bottom: 35px;
-   
+
 }
 .colu {
 }
@@ -391,8 +396,8 @@ a:hover{
 	color: #FFFFFF;
 	font-weight: lighter;
 	border-top-width: 2px;
-	
-	
+
+
 	}
 footer {
 	padding-top: 60px;
@@ -400,8 +405,8 @@ footer {
 	background-image: url("../image/wall03.png");
     background-size: cover;
 	background-position:top;
-	
-	
+
+
 }
 .intro {
 	display: inline-block;
@@ -409,7 +414,7 @@ footer {
 
 .profile {
 	width: 20%;
-	
+
 	padding: 2%;
 }
 .gallery .thumbnail .tag {
@@ -427,14 +432,14 @@ footer {
 .logo {
     text-align: center;
     width: 80%;
-    height: 18.2%;	
+    height: 18.2%;
 	}
 .columnimg {
     width: 50px;
     height: auto;
 }
 	.columnprofile{
-		
+
 	}
 .text_column {
 	width: 100%;

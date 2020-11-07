@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News | Yusuke Takahashi</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container3">
+  <header class="header">
+		<img src="../image/Logoname02.png" alt="" width="400" height="91" class="logo"/>
+	 	<div class="link_account">
+			<a href="https://twitter.com/Meteora_Clark"><img src="../image/Icon-Twitter.png" alt="" width="1452" height="1452" class="linkicon"/></a>
+			<a href="https://www.instagram.com/yusuke_takahashi2001/"><img src="../image/Icon-Instagramf.png" alt="" width="1452" height="1452" class="linkicon"/></a>
+			<a href="https://github.com/YusukeTakahashi2001"><img src="../image/Icon-Github.png" alt="" width="1452" height="1452" class="linkicon"/></a>
+		</div>
+		<ul class="topnav">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../Profile.html">Profile</a></li>
+			<li><a class="active" href="../News.html">News</a></li>
+
+		</ul>
+	  </header>
+<div class="articlemain">
+
+<div class="article">
+  <h1 class="articletitle">Kaggleを始めました。</h1>
+				<div class="thumbnailspace">
+					<div class="thumbnailarticle">
+						<img src="./img/2020-11-08.png"  class ="articleimg" alt=""/>
+					</div>
+				</div>
+   	  			<div class="articletxt">
+					<h3 cclass="articletxt" >2020/11/08</h3>
+   	  			  <p>　冬が近づき、寒くなって来ました。今年はコロナ禍で全くと言っていい
+                ほど学校に行けず、時間がすぎるのが早く感じます。</p>
+              <p>　前回から更新がほとんど出来ませんでしたが、ようやくGitの方法が
+                分かって来たのでこれからは楽に記事の更新が出来ると思います。
+              　このホームページを作ってから思ったことはページの読み込みが遅いことです。
+              　まあ原因は簡単でウェブページに使用している画像サイズが大きいためです。
+              　これを改善するために
+            jsファイルを使って読み込むまでのアニメーションを作って不快感を減らしたり、
+            画像をサイズを小さくすればいいのですが、商用サイトでもないので気が向いたら作って見ようと思います。</p>
+            <p>　さて、前置きが長くなりましたがディープラーニングの画像認識について一通り理解出来たので学習はひとまず中断し、
+              機械学習について<a href="https://www.kaggle.com/" color='purple'>Kaggle</a>という面白そうなサイトを見つけたのでチュートリアルをしてみました。
+            </p>
+            <p>行ったコンペ名はTitanic: Machine Learning from Disasterです。まず最初に感じたことはディープラーニングと違い、モデルの構築よりも得微量エンジニアリング
+            のほうが時間がかかることです。まだ触った程度なのでこれが普通なのかわかりませんが、
+            基本的にモデルはscikit-learn(サイキット・ラーン)で補うことができ、コードも少なくてすみました。<br>
+          モデルの構築はこれにパイプラインや交差検証などを付け加えていく感じでいいのかなと考えました。<br>
+        これに比べ得微量エンジニアリングは凄く時間がかかりました。Accuracyをあげるために関係している得微量を見つけて編集していくことが大変で、
+      モデルによってはNaN値がつかえなかったり、NaN値予測するためにさらに学習したりとやることが多かったです。</p>
+      <p>色々苦戦しましたが、最終的には<br>
+        <p>
+        Public Score:0.80622,17994中154位<br></p>
+      となり、80%オーバーかつ上位2%以内を達成することが出来ました!<br>
+      面白かったので続けようと思います。</p>
+
+		      </div>
+</div>
+
+	</div>
+	<footer id="contact">
+    <p class="hero_header">CONTACT</p>
+    <div class="button"><a href="mailto:meteora2.71828@gmail.com">EMAIL ME</a></div>
+	  <div class="copyright">© 2020 Yusuke Takahashi All rights reserved. No reproduction republication without written permission.</div>
+  </footer>
+</div>
+
+
+</body>
+
+</html>
